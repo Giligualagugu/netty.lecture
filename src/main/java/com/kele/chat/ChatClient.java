@@ -10,6 +10,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * 聊天室客户端
+ */
 public class ChatClient {
 	public static void main(String[] args) throws InterruptedException, IOException {
 
@@ -23,7 +26,7 @@ public class ChatClient {
 					.channel(NioSocketChannel.class)
 					.handler(new ChatClientInitializer());
 
-			Channel channel = bootstrap.connect("localhost", 9001).sync().channel();
+			Channel channel = bootstrap.connect("localhost", 9002).sync().channel();
 			//获取键盘输入,发送到服务器;
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
