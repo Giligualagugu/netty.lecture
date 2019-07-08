@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3460c058-c38e-4895-9395-562db7d0e08d" name="Default Changelist" comment="http se">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/chat/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/chat/ChatClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/chat/ChatClientMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/chat/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/chat/ChatServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/chat/ChatServerMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/clientsocket/ChattinClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/clientsocket/ClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/clientsocket/ClientSockethandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/serversoket/ChattingServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/serversoket/ServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kele/serversoket/SocketMessageHandler.java" afterDir="false" />
+    <list default="true" id="3460c058-c38e-4895-9395-562db7d0e08d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kele/httpserver/TestInitailizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kele/httpserver/TestInitailizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kele/httpserver/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kele/httpserver/TestServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -101,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/chat/ChatClientInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,8 +156,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/chat/ChatClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="368">
+              <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -488,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562233464054</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="多人聊天室模型">
+      <created>1562319115812</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562319115812</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -601,7 +594,8 @@
     <MESSAGE value="netty test init" />
     <MESSAGE value="test push" />
     <MESSAGE value="http server" />
-    <option name="LAST_COMMIT_MESSAGE" value="http server" />
+    <MESSAGE value="多人聊天室模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="多人聊天室模型" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -850,7 +844,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/chat/ChatClientInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -899,8 +893,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/chat/ChatClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="368">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
