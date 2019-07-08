@@ -35,3 +35,4 @@ src/main/resources/templates/
 .gradle/4.10.3/vcsMetadata-1/
 src/main/resources/
 src/test/
+out/
